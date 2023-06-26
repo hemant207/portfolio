@@ -260,18 +260,23 @@ background-color: #0e1024;
       font-size: 1.5rem;
       height: 100vh;
       display: flex;
+      background-attachment: fixed;
   
     }
 
     #about{
       font-size: small;
-      height:100%;
-      display:inline;
+      height:max-content;
+      display: flex;
+      flex-direction:column ;
+    }
+    .about-left{
+  width: 100%;
+  text-align: justify;
     }
 
-  #contact{
-height:100%;
+.about-right{
+  width: 100%
 }
-    
 }
 
