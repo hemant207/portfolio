@@ -266,6 +266,7 @@ background-color: #0e1024;
     #about{
       font-size: small;
       height:max-content;
+      display:inline;
     }
     
 }
