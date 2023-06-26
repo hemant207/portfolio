@@ -84,7 +84,6 @@ header {
   width: 100%;
   margin: 0%;
   height: 100vh;
-  padding: 3em;
   overflow: scroll;
   color: white;
   
@@ -141,7 +140,10 @@ background-color: #164B60;
 
 
 .project {
+  margin: 1em;
   margin-bottom: 5em;
+  border: #e7d1ba solid;
+padding: 1em;
 }
 
 footer {
@@ -182,7 +184,7 @@ form input[type="submit"] {
 }
 .cont {
 /*  background-image: linear-gradient(to right,#ba1ff7 , #e9f00d);*/
-background-color: #22A699;
+background-color: #0e1024;
   color: #e5e5e5;
   font-size: 2.26rem;
   text-transform: uppercase;
@@ -242,9 +244,29 @@ background-color: #22A699;
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
+  body{
+    margin:0;
+    padding: 0%;
+    font-size: small;
+  }
   header nav ul li {
     display: block;
     margin-bottom: 10px;
   }
+  
+  .cont {
+    /*  background-image: linear-gradient(to right,#ba1ff7 , #e9f00d);*/
+    background-color: #0e1024;
+      font-size: 1.5rem;
+      height: 100vh;
+      display: flex;
+  
+    }
+
+    #about{
+      font-size: small;
+      height:max-content;
+    }
+    
 }
 
